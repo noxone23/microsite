@@ -1,0 +1,88 @@
+a {
+    color: white;
+    text-decoration: none
+}
+
+main {
+    background-color: red;
+}
+
+/* these are class selectors. the ones with the (.)*/
+
+.heads {
+    color: green;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+.prime-paragraphs {
+    color: yellow;
+}
+
+/* id selectors */
+#first-paragraph {
+    color: blue;
+
+}
+
+/*layout*/
+header {
+    padding-top: 50px;
+}
+
+
+
+
+/*typography*/
+
+.bildmitbildunterschrift {
+    width: 320px;
+    position: relative;
+}
+
+.bildmitbildunterschrift span {
+    background-color: red;
+}
+
+.bildmitbildunterschrift img {
+    display: block;
+}
+
+.bildmitbildunterschrift span {
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+
+.bildmitbildunterschrift span {
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+}
+
+.bildmitbildunterschrift span {
+    background-color: silver;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
